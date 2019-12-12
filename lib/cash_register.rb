@@ -36,4 +36,7 @@ class CashRegister
         self.total = @total - self.last_transaction
     end
 
+    def random_method
+        puts "why"
+    end
 end
